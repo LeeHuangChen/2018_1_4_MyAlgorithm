@@ -7,7 +7,7 @@ evalueCutoff=1e-4
 
 
 #directories used to locate where all the files gets read/written
-blastdir="InputFiles/BLASTp_AllToAll_Data"
+blastdir="InputFiles/"
 hspIntGraphdir="GeneratedFiles/hspint_graphs"
 borderInfodir="GeneratedFiles/borderInformation"
 borderResultdir="Results/"
