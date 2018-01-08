@@ -10,6 +10,7 @@ def main():
 
 	blastdir=conf.blastdir
 	blastInfoFilenames=os.listdir(blastdir)
+	blastInfoFilenames.sort()
 	#go through every file entered in the "InputFiles/BLASTp_AllToAll_Data" directory
 	#it will mark all the files with '.done' after it is completed
 	#this is to ensure that you can restart the experiment and not have to redo the test you have done already
@@ -39,4 +40,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+	main()
